@@ -1,0 +1,300 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Times New Roman;
+}
+
+.hmySlides {
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+}
+
+.hcontainer{
+	position: relative;
+	left: 0px;
+
+	bottom: 0px;
+	width: 100%;
+	height: 750px;
+	animation: fade 85s ease-in-out infinite;
+	background-size: cover;
+}
+
+.houter{
+	position: relative;
+	left: 0;
+	top: 0;
+	bottom: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5)
+}
+
+.hdetails{
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.hdetails h1{
+	font-size: 4em;
+	color: #fff;
+}
+
+.hdetails h2{
+	text-transform: capitalize;
+	color: #fff;
+}
+
+.hdetails h2 span:nth-child(1){
+	color: lightblue;
+	padding-top: 5px;
+	font-size: 30px;
+}
+
+
+
+@keyframes fade{
+	0%,100%{
+		background-image: url(images/slide1.png);
+	}
+	10%{
+		background-image: url(images/slide2.png);
+	}
+	20%{
+		background-image: url(images/slide3.png);
+	}
+	30%{
+		background-image: url(images/slide4.png);
+	}
+	40%{
+		background-image: url(images/slide5.png);
+	}
+	50%{
+		background-image: url(images/slide6.png);
+	}
+	60%{
+		background-image: url(images/slide7.png);
+	}
+	70%{
+		background-image: url(images/slide8.png);
+	}
+	80%{
+		background-image: url(images/slide9.png);
+	}
+	90%{
+		background-image: url(images/slide10.png);
+	}				
+}
+
+
+.hcollaborators {
+	background-color: black;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	min-height: 51px;
+	height: auto;
+	margin-top: 40px;
+}
+
+.zoomcontainer {
+	width: 90%;
+	height: auto;	 
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+	
+
+.zoombox {
+	width: 20%;
+	margin: 0 10px;
+	box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+	transition: 1s;
+}
+
+.zoombox img {
+	display: block;
+	width: 70%;
+	border-radius: 5px;
+}
+
+.zoombox:hover{
+	transform: scale(1.2);
+}
+
+.hcompany {
+	background-color: black;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	min-height: 51px;
+	height: auto;
+	margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.servicetype {
+    margin: 0;
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	background-color: #151B54;
+}
+
+.servicetype .box1 {
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background: silver;
+    opacity: 0.9;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+
+.servicetype .hbox1 .hunwase h3{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 10px;
+	color: black;
+}
+
+.servicetype .hbox1 .habwase h3{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 10px;
+	color: black;
+}
+
+.servicetype .hbox1 .hunwase p{
+    color: black;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.servicetype .hbox1 .habwase p{
+    color: black;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+
+.servicetype .hbox1 .hunwase button{
+   background-color: blue;
+   color: white;
+}
+
+.servicetype .hbox1 .habwase button{
+    background-color: blue;
+    color: white;
+ }
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hflowletters {
+  color: black;
+  height: 30px;
+  background: gray;
+  font-size: 20px;
+  width: 100%;
+  vertical-align: center;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+
+	.zoomcontainer {
+		display: block;
+		width: 100%;
+	}
+
+	.zoombox {
+		width: 50%;
+		box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+		transition: 1s;
+		justify-content: center;
+	}
+	
+	.zoombox img {
+		display: block;
+		width: 70%;
+		border-radius: 5px;
+	}
+
+	.servicetype .box1{
+		width: 50%;
+	  }
+}
+
+@media screen and (max-width:480px) {
+    .servicetype .box1{
+      width: 50%;
+    }
+  }

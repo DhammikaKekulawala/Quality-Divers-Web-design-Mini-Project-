@@ -1,0 +1,216 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background: black;
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 0px 20px;
+  margin: 0;
+}
+
+.box h3{
+	font-weight: 600;
+	color: cyan;
+	font-size: 22px;
+}
+
+.box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+.left .content p{
+	text-align: justify;
+	color: silver;
+	font-size: 20px;
+}
+
+.left .content .social{
+	margin: 20px 0 0 0;
+	background: none;
+}
+
+.left .content .social a{
+	padding: 0 2px;
+}
+
+.left .content .social a span{
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 5px;
+	transition: 0.3s;
+}
+
+.social .fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.social .fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+.social .fa-instagram {
+	background: #125688;
+	color: white;
+}
+
+.social .fa-skype {
+	background: #00aff0;
+	color: white;
+}
+
+.social .fa-youtube {
+	background: #bb0000;
+	color: white;
+}
+
+.social .fa-whatsapp {
+	background: #25d366;
+	color: white;
+}
+
+.place {
+	font-size: 18px;
+	padding-left: 10px;
+	color: silver;
+}
+
+.phone {
+	margin: 15px 0;
+	color: silver;
+	padding-left: 10px;
+	font-size: 18px;
+}
+
+.email {
+	font-size: 18px;
+	margin-bottom: 0px;
+	color: lightblue;
+	padding-left: 10px;
+}
+
+.ftext {
+	color: silver;
+	padding: 0;
+	margin: 0;
+}
+
+.fa-map-marker {
+	background: none;
+	color: red;
+}
+
+.fa-phone {
+	background: none;
+	color: green;
+}
+
+.fa-mobile {
+	background: none;
+	color: blue;
+}
+
+.fa-envelope {
+	background: none;
+	color: white;
+}
+
+.formemail {
+	font-size: 20px;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+	color: lightgreen;
+}
+
+.right form .msg{
+	margin-top: 10px;
+	color: lightgreen;
+	font-size: 20px;
+}
+
+.right form input, .right form textarea{
+	max-width: 97%;
+	font-size: 18px;
+	background: #151515;
+	padding-left: 10px;
+	border: 1px solid #222222;
+	color: white;
+}
+
+.right form input:focus {
+	outline-color: blue;
+}
+
+.right form textarea:focus{
+	outline-color: blue;
+}
+
+.right form input{
+	height: 35px;
+  min-width: 96%;
+  max-width: 96%;
+}
+
+.right form textarea{
+  max-width: 96%;
+  min-width: 96%;
+  min-height: 50px;
+  max-height: 150px;
+}
+
+.right form .button{
+	margin-top: 10px;
+}
+
+.right form .button button{
+	height: 40px;
+	width: 96%;
+	border: none;
+	outline: none;
+	background: red;
+	font-size: 20px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: 0.3s;
+	color: white;
+}
+
+.allrights {
+	padding: 5px;
+	font-size: 15px;
+	background: #151515;
+	text-align: center;
+}
+
+.allrights  span{
+	color: #656565;
+}
+
+@media screen and (max-width: 750px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 10px 0;
+  }
+}

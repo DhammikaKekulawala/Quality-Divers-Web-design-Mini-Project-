@@ -1,0 +1,30 @@
+*{
+	/* background:#8080ff ; */
+}
+.cont{
+	background:#8080ff ;
+}
+
+.image{
+	height:350px;
+	width:450px;
+	
+}
+table{
+	text-align: left;
+	width:100%;
+	font-size:20px;
+}
+table th{
+	font-size:50px;
+	text-align: center;
+
+}
+.project{
+	margin-left: 150px;
+	margin-right: 100px;
+}
+.vessels{
+	margin-left: 150px;
+	margin-right: 100px;
+}

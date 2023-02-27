@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Times New Roman', Times, serif;
+	height: 100%;
+	width: 100%;
+}
+
+.ababout-content {
+	background-image: url('aboutback.jpeg');
+    background-size: cover;
+    background-position: center;
+	height: 100%;
+	width: 100%;
+}
+
+section:nth-child(1){
+	color: #fff;
+	height: 100%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 20%;
+	padding-top: 30px;
+}
+
+.abheadtopic h1{
+	font-size: 60px;
+	color: white;
+	padding-top: 25px;
+}
+
+.abheadtopic h3{
+	font-size: 30px;
+	text-align: center;
+	color: black;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	margin-left: 3%;
+}
+
+section .abcards{
+	display: flex; 
+}
+
+section .abcards .abtext-card{
+	color: white;
+	background: black;
+	opacity: 0.7;
+	height: auto;
+	justify-content: center;
+	letter-spacing: 1px;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 15%;
+}
+
+section .abcards .abtext-card p{
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 15px;
+}
+
+
+@media screen and (max-width:960px) {
+	.abheadtopic h1 {
+      width: 100%;
+      padding-left: 0%;
+      margin: 0;
+    }
+	.abheadtopic h3{
+	  margin-left: 15%;
+	  margin-right: 15%;
+	}
+	section .abcontent .abcards .abtext-card{
+	  width: 100%;
+	  height: auto;
+	}
+  }
+  
+  @media screen and (max-width:768px) {
+    .abheadtopic h1 {
+      width: 100%;
+      padding-left: 0%;
+      margin: 0;
+    }
+	.abheadtopic h3{
+	  margin-left: 15%;
+	  margin-right: 15%;
+	}
+  }
+  
+  @media screen and (max-width:480px) {
+    .abheadtopic h1 {
+      width: 100%;
+      padding-left: 0;
+      margin: 0;
+    }
+	.abheadtopic h3{
+	  margin-left: 15%;
+	  margin-right: 15%;
+	}
+  }

@@ -1,0 +1,511 @@
+body {
+	margin-left: 0px;
+	font-family: Times New Roman;
+	background-image: url(proback.jpeg);
+	background-size: cover;
+	position: center;
+	background-repeat: no-repeat;
+}
+
+.top-title {
+	font-family: "Times New Roman";
+	color: white;
+	font-size: 25px;
+
+}
+
+.productinfo h1 {
+	padding: 0px;
+	margin-top: 0px;
+	font-size: 30px;
+	color: black;
+	text-align: center;
+}
+
+.productinfo img {
+	width: 220px;
+	height: 220px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.maincontent {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.maincontent .box {
+  position: relative;
+  width: 430px;
+  padding: 20px;
+  background: none;
+  border-radius: 20%;
+  margin: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  height: auto;
+  overflow: hidden;
+  border: none;
+  /*border-left: 5px solid red;
+  border-right: 5px solid red;*/
+}
+
+.maincontent .box .content h3 {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.maincontent .box3 {
+  position: relative;
+  width: 300px;
+  padding: 0px;
+  margin: 0px;
+  background: none;
+  box-sizing: border-box;
+  text-align: center;
+  height: auto;
+  overflow: hidden;
+  border: none;
+  /*border: 3px solid rgb(53, 41, 153);*/
+  transition: 1s;
+}
+
+.box3 img {
+  display: block;
+  width: 70%;
+  border-radius: 5px;
+}
+
+.box3:hover{
+  transform: scale(1.8);
+}
+
+
+
+
+
+
+
+
+
+.maincontent .box3 .content {
+  position: relative;
+  z-index: 1;
+}
+
+.imagecontent{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.description h1 {
+	padding: 0px;
+	margin-top: 0px;
+	font-size: 30px;
+	color: yellow;
+	text-align: center;
+}
+
+.description h2 {
+	padding: 0px;
+	margin-top: 0px;
+	color: orange;
+	text-align: center;
+}
+
+.description h3 {
+	padding-left: 10px;
+	margin-left: 10px;
+	color: yellow;
+  text-align: center;
+  /* text-align: justify; */
+}
+
+.description img {
+	width: 220px;
+	height: 220px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.service-icon{
+	display: inline-block;
+	width: 115px;
+	height: 30px;
+	border: 3px solid black;
+	margin-top: 16px;
+	padding-top: 0px;
+	transition: 0.3s linear;
+	border-radius: 40px 40px 40px 40px;
+	background: none;
+}
+
+.service-icon:hover {
+	background: cyan;
+}
+
+.service-icon button {
+  padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 70px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-bottom: 35%;
+}
+
+.modal-content {
+  max-height: 90%;
+  overflow: auto;
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  animation-name: animatetop;
+  animation-duration: 0.8s;
+  max-height: 660px;
+}
+
+.modal-body {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.modal-body h1 { 
+	color: red;
+	font-weight: 600;
+	text-align: center;
+}
+
+.modal-body h3 {
+	padding: 50%;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 10px;
+	color: blue;
+	text-align: justify;
+}
+
+.modal-body img {
+	width: 180px;
+	height: 180px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  border: none;
+	/*border: 1px solid black;*/
+}
+
+.modal-body .applyservices {
+  padding: 25px;
+}
+
+.modal-body .applyservices button {
+	cursor: pointer;
+	position: relative; 
+	font-size: 18px;
+	border: none;
+	color: white;
+	font-weight: 600;
+	background: none;
+	float: right;
+  
+}
+
+.modal-body .applyservices a {
+	text-decoration: none;
+	color: red;
+	background: none;
+}
+
+.modal-body .applyservices a:hover {
+	background: blue;
+	padding: 10px;
+}
+/*
+.modal-body button:hover {
+	background-color: black;
+	color: cyan;
+}
+*/
+.modal-header {
+    padding: 2px 10px;
+    background-color: #5cb85c;
+    color: white;
+	  height: 40px;
+}
+
+.close {
+    color: red;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;			
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+	background: red;
+	border-radius: 50%;
+}
+
+.modal-footer {
+    background-color: #5cb85c;
+    color: white;
+	  height: 40px;
+}
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+button {
+	cursor: pointer;
+	position: relative;
+	top: 10%; 
+	left: 0%; 
+	padding: 0px;
+	font-size: 18px;
+	border: none;
+	color: red;
+	font-weight: 600;
+	background: none;
+	justify-content: center;
+}
+
+button:hover {
+	/* background-color: pink; */
+	color: yellow;
+}
+
+
+.op {
+	background: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+
+.op a {
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	background: red;
+	padding: 10px;
+	border-radius: 20%;
+}
+
+.op a:hover {
+	background: green;
+	border-radius: 20%;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:960px) {
+    .servicetype .box1{
+      max-width: 100%;
+    }
+  }
+  
+  @media screen and (max-width:768px) {
+    .servicetype .box1{
+      max-width: 100%;
+    }
+  }
+  
+  @media screen and (max-width:480px) {
+    .servicetype .box1{
+      max-width: 100%;
+    }
+  }
+
+
+  @media screen and (max-width:960px) {
+    .maincontent .box{
+      max-width: 100%;
+      box-align: center;
+    }
+  }
+  
+  @media screen and (max-width:768px) {
+    .maincontent .box{
+      max-width: 100%;
+      box-align: center;
+    }
+  }
+  
+  @media screen and (max-width:480px) {
+    .maincontent .box{
+      max-width: 100%;
+      box-align: center;
+    }
+  }
+
+
+
+
+
+  @media screen and (max-width: 1050px){
+    .imagecontent{
+      flex-wrap: wrap;
+      padding-left: 15px;
+      padding-right: 15px;
+    
+      width: 100%;
+    }
+    .imagecontent .box3 img{
+      padding: 10px;
+      margin: 0;
+    }
+  }
+
+
+
+
+
+
+
+
+
+  .interbox {
+    position: relative;
+    padding: 5px;
+    background: none;
+    box-sizing: border-box;
+    height: auto;
+    overflow: hidden;
+    border: none;
+    width: 700px;
+    height: auto;
+    border: none;
+    /*border: 3px solid red;*/
+  } 
+
+
+
+  .interbox table {
+    width: 100%;
+    text-align: left;
+   
+  }
+
+  .interbox table td {
+    height: 40px;
+    font-size: 20px;
+    max-width: 600px;
+  }
+
+
+  @media screen and (max-width:960px) {
+    .maincontent .interbox{
+      width: 100%;
+      box-align: center;
+      margin-right: 20px;
+    }
+    .interbox table {
+      width: 100%;
+      
+    }
+  }
+  
+  @media screen and (max-width:768px) {
+    .maincontent .interbox{
+      width: 100%;
+      box-align: center;
+      margin-right: 20px;
+    }
+    .interbox table {
+      width: 100%;
+      margin-right: 20px;
+    }
+  }
+  
+  @media screen and (max-width:480px) {
+    .maincontent .interbox{
+      width: 100%;
+      box-align: center;
+      margin-right: 20px;
+    }
+    .interbox table {
+      width: 100%;
+      margin-right: 20px;
+    }
+  }
