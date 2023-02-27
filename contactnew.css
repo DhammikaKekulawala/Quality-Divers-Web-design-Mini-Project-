@@ -1,0 +1,74 @@
+*,*:before,*:after{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Times New Roman;
+	font-size: 10px;
+	background-image:Url(1.jpeg);
+	background-size: cover;
+	position: center;
+}
+
+.content h2{
+	font-weight: 1000px;
+	font-size: 40px;
+	color: Blue;
+	text-align: center;
+}
+
+.border{
+  width: 150px;
+  height: 2px;
+  background: #82ccdd;
+  margin: 10px auto;
+}
+
+form {
+	justify-items: center;
+	background: black;
+	opacity: 0.8;
+	margin-left: 400px;
+	margin-right: 450px;
+	margin-top: 50px;
+}
+
+.email .text {
+	font-size:25px;
+	padding:25px;
+	color: white;
+	
+}
+
+form .msg {
+	font-size: 15px;
+	padding:25px;
+	color: white;
+}
+
+form input, form textarea{
+	background: black;
+	opacity: 0.5;
+	color: white;
+	font-size: 18px;
+	outline-color: green;
+	outline-width: 4px;
+	border-color: blue;	
+	border-width: 4px;
+	outline-width:4px;
+}
+
+form input, form textarea:active{
+	border-color: green;
+	border-width: 4px;
+}
+
+.btn {
+	background-color: red;
+	color: white;
+	font-size:25px;
+	justify-items: center;
+	text-align: center;
+	width: 400px;
+	height: 40px;
+}

@@ -1,0 +1,299 @@
+	*{
+	margin: 0;
+	padding: 0;
+	
+	font-family: Times New Roman;
+	}
+	
+	body{  
+	
+	color: white;
+	
+	background-position: center;
+	background-size: cover;
+	}
+
+	.servicesform{
+	width: 800px;
+	background-color: rgb(0,0,0,0.6);
+	margin:auto;
+	color: white;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px ;
+	}
+	
+	
+	
+	.main{
+	background-color: rgb(0,0,0,0.5);
+	width: 800px;
+	margin: auto;
+	}
+
+	form{
+	padding: 10px;
+	}
+
+	#name{
+	width:100%;
+	height:100px;
+	} 
+	
+	.name{
+	margin-left: 25px;
+	margin-top: 30px;
+	width: 125px;
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+	}
+	
+	.firstname{
+	position: relative;
+	left:200px;
+	top:-37px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: black;
+	}
+	
+	.lastname{
+	position: relative;
+	left:250px;
+	top:-37px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color:#555;       
+	}  
+	
+	.company{
+	position:relative;
+	left:200px;
+	top:-37px;
+	line-height: 40px;
+	width:480px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;  
+	}
+	
+	.ship-name{
+	position:relative;
+	left:200px;
+	top:-40px;
+	line-height: 40px;
+	width:480px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+	}
+	
+	.ship-id{
+	position:relative;
+	left:200px;
+	top:-37px;
+	line-height: 40px;
+	width:480px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+	}
+	
+	.length{
+	position:relative;
+	left:200px;
+	top:-40px;
+	line-height: 40px;
+	width:110px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+	}
+	
+	.width{
+	position:relative;
+	left:220px;
+	top:-40px;
+	line-height: 40px;
+	width:110px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+	}
+	
+	.height{
+	position:relative;
+	left:240px;
+	top:-40px;
+	line-height: 40px;
+	width:110px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+	}
+		
+	.country{
+	position:relative;
+	left:200px;
+	top:-37px;
+	line-height: 40px;
+	width:480px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+	}
+	
+	.email{
+	position:relative;
+	left:200px;
+	top:-37px;
+	line-height: 40px;
+	width:480px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;  
+	}     
+
+	.Code{
+	position:relative;
+	left:200px;
+	top:-37px;
+	line-height: 40px;
+	width:95px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;  
+	}
+	
+	.number{
+	position:relative;
+	left:200px;
+	top:-37px;
+	line-height: 40px;
+	width:255px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555; 
+	}
+	
+	.area-code{
+	position:absolute;
+	color:#E5E5E5;
+	font-size:16px;
+	left:54px;
+	top:-4px;
+	}
+	 
+	.phone-number{
+	position:relative;
+	color:#E5E5E5;
+	font-size:16px;
+	left:-100px;
+	top:-2px;
+	}
+		
+	.other{
+	position: relative;
+	left: 200px;
+	top: -25px;
+	line-height: 25px;
+	width: 475px;
+	height:100px; 
+	border-radius: 6px;
+	padding-left: 22px;
+	font-size: 16px;
+	color: black;
+	}
+
+	button{
+	background-color: #3BAF9F;
+	display: block;
+	margin: 20px 0px 0px 20px;
+	text-align: center;
+	border-radius: 12px;
+	border: 2px;
+	padding: 14px 100px;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	transition: 0.25px;
+	width: 250px;
+	font-size: 18px;
+	} 
+	
+	button:hover{
+	background-color: #5390F5;
+	}  
+	
+.group { 
+	padding-left: 60px; 
+	padding-top: 8px;
+	margin-top: 8px;
+	margin-left: 180px;
+	font-size:18px;
+	}
+
+input[type="checkbox"]{ 
+	display: none;
+	}
+
+label{ 
+	position: relative;
+	}
+
+label::before { 
+	content: ""; 
+	background: url(10.jpeg); 
+	background-position: center; 
+	background-size: cover; 
+	width: 32px; 
+	height: 32px; 
+	position: absolute; 
+	left: -44px; 
+	top: -8px; 
+	transform: scale(0); 
+	border-radius: 50%;
+	} 
+
+input[type = "checkbox"]:checked + label::before { 
+	transform: scale(0.8);
+	} 
+
+label::after { 
+	content: ""; 
+	border: 2px solid yellow; 
+	width: 24px; 
+	height: 24px; 
+	position: absolute; 
+	left: -42px; 
+	top: -6px; 
+	border-radius: 50%;
+	}
+header{
+	background-color: yellow;
+	overflow: auto;
+	padding: 10px;
+	color:black;
+}
+ header .appname{
+	 float: left;
+}
+header .loggedin{
+	float: right;
+	
+}
